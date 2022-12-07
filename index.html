@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+<title>
+    Lista de otarios
+</title>
+</head>
+<body>
+<center>
+   <h3  style="margin-top:20px ; margin-bottom: 20px;">
+    Lista de otarios
+</h3>
+<div id="rows">
+    <input type="text" placeholder=" insira o nome" id="name1">
+    <button onclick="submit()" id="submitbutton">enviar</button>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+    <hr>
+    <div id="displayName"> </div>
+    <hr>
+    <div id="show1"><h3 id="hd1"></h3>
+    <button onclick="show()" id="show">mostrar</button>
+    <p id="p1"></p>
+    </div>
+    <hr>
+    <button onclick="sorting()" id="sortButton">lista organizada</button>
+    <div id="sorted"></div>
+</div>
+<hr>
+<input type="text" placeholder="pesquisarnomes" id="s1">&nbsp;
+<button onclick="searching()" id="srch">pesquisar</button>
+<p id="p2"></p>
+</center>
+
+</body>
+</html>
